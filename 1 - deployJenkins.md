@@ -1,8 +1,3 @@
-### Install Enterprise-CLI
-```
-dcos package install --yes dcos-enterprise-cli
-```
-
 ### Create Public-Private Key Pair
 ```
 dcos security org service-accounts keypair jenkins-private-key.pem jenkins-public-key.pem
