@@ -1,4 +1,8 @@
 
+## Setup Enterprise DC/OS Prerequisites
+This set of instructions will take you through some of the pre-requisites to installing a Continuous Integration & Continuous Delivery Pipeline on Enterprise DC/OS
+
+
 ### Log into Browser UI
 From either Firefox or Chrome, log into the DC/OS Browser UI
 
@@ -25,30 +29,9 @@ dcos
 5.  Paste the copied text into your SSH session (the one where you connected to the DC/OS Bootstrap Node)
 6.  Accept requests and enter userIDs and Passwords (first the password for the pootstrap node, Second the User ID and password for the DC/OS cluster account
 
-
-
-
-
 ### Install Enterprise-CLI
 The Enterprise CLI, available only in Enterprise DC/OS provides access to Security and Backup Command Line interfaces
 ```
 dcos package install --yes dcos-enterprise-cli
 ```
 
-
-
-SSH into Bootstrap Node
-
-Install CLI
-
-
-Install Enterpriuse CLI
-
-
-
-
-
-Create Service Account
-
-Create Jenkins Service Account
-Create GitLab Service Account
