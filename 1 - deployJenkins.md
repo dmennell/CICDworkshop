@@ -1,14 +1,14 @@
-#Install Enterprise-CLI
+# Install Enterprise-CLI
 ```
 dcos package install --yes dcos-enterprise-cli
 ```
 
-#Create Public-Private Key Pair
+## Create Public-Private Key Pair
 ```
 dcos security org service-accounts keypair jenkins-private-key.pem jenkins-public-key.pem
 ```
 
-#Create and Verify a New Service Account "jenkins-principal"
+### Create and Verify a New Service Account "jenkins-principal"
 ```
 dcos security org service-accounts create -p jenkins-public-key.pem -d "Jenkins service account" jenkins-principal
 dcos security org service-accounts show jenkins-principal
