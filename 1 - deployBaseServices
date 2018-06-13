@@ -1,0 +1,17 @@
+
+# Deploying Base Services on DC/OS
+
+
+### Deploy Jenkins from Catalog
+dcosToolbox/services/jenkins/secureSetup.md
+https://github.com/dmennell/dcosToolbox/blob/master/services/jenkins/secureSetup.md
+
+### Deploy GitLab from Catalog
+
+
+
+### Deploy Docker Repository from Catalog
+
+
+
+### Deploy EdgeLB for Ingress
